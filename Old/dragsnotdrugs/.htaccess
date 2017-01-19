@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^dragsnotdrugs\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dragsnotdrugs\.com$
+RewriteRule ^/?$ "http\:\/\/diecastdragsters\.com\/" [R=301,L]
+
