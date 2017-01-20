@@ -22,36 +22,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </script>
 </head>
 <body>
-<div class="header">	
-  <div class="wrap"> 
-	<div class="header-top">
-		 <div class="logo">
-			 <a href="index.php"><img src="images/logo.png" alt=""></a>
-		 </div>
-		 <div class="menu">
-			<div id="cssmenu">
-				<ul>
-				   <li class="active"><a href="index.php"><span>Home</span></a></li>
-				   <li><a href="about.html"><span>Donate</span></a></li>
-				   <li><a href="about.html"><span>About</span></a></li>
-				   <li><a href="gallery.html"><span>Gallery</span></a></li>
-				   <li class="last"><a href="contact.html"><span>Contact</span></a></li>
-				</ul>
-            </div>
-		  </div>	
-		  <div class="clear"></div> 
-	   </div>
-   </div>	
-</div>
+<?php include './includes/header.php';?>
       <!------ Slider ------------>
 		  <div class="slider">
 	      	<div class="slider-wrapper theme-default">
 	            <div id="slider" class="nivoSlider">
-	                <img src="images/banner2.jpg" alt="" />
-	                <img src="images/banner1.jpg" alt="" />
-	                <img src="images/banner3.jpg" alt="" />
-	                <img src="images/banner4.jpg" alt="" />
-	                <img src="images/banner5.jpg" alt="" />
+	                <img src="images/crawler1.jpg" alt="" />
+	                <img src="images/dragbus1.jpg" alt="" />
+	                <img src="images/hotwheelstrack1.jpg" alt="" />
 	            </div>
 	        </div>
    		</div>
@@ -59,7 +37,53 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="main">
 		<div class="content-top">
 			<div class="wrap">
-				<div class="section group">
+			<div class="about-bottom">
+	   		       <div class="about-topgrids">
+						<div class="about-topgrid1">
+							<h3>Who We Are</h3>
+							   <img src="images/pic13.jpg" title="name">
+							   <h5>LOREM IPM DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT. PRAESENT VESTIBULUM.</h5>
+							   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi.</p>
+							   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aeonummy hendrerit mauris.Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
+						</div>
+				   </div>
+				   <div class="about-services">
+						<h3>What we do</h3>
+						<div class="questions">
+				       <h4><img src="images/arrow.png" alt=""/>&nbsp;Diecast Drag Events</h4>
+	        	       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	        		     </div>
+	        		     <div class="questions">
+				       <h4><img src="images/arrow.png" alt=""/>&nbsp;Yeti Crawl Track</h4>
+	        	       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	        		     </div>
+	        		     <div class="questions">
+				       <h4><img src="images/arrow.png" alt=""/>&nbsp;Why a Hobby?</h4>
+	        	       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	        		     </div>
+					</div>
+								<div class="about-histore">
+									<h3>History</h3>
+									<div class="historey-lines">
+										<ul>
+											<li><span>2006 &nbsp;-</span></li>
+											<li><p>First Race</p></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+									<div class="historey-lines">
+										<ul>
+											<li><span>2017 &nbsp;-</span></li>
+											<li><p>New Facility</p></li>
+											<div class="clear"> </div>
+										</ul>
+									</div>
+								   <div class="clear"> </div>
+								</div>
+						<div class="clear"></div> 
+					</div>
+			  </div>
+				<!-- <div class="section group">
 				<div class="col_1_of_3 span_1_of_3">
 					<div class="thumb-pad2">
 	                    <div class="thumbnail">
@@ -96,7 +120,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	                    </div>
                     </div>
 				</div>
-				<div class="clear"></div> 
+				<div class="clear"></div> -->
 			</div>
 			</div>
 		</div>
@@ -139,46 +163,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-	<div class="footer">
-		<div class="wrap">
-		<div class="footer-top">
-				<div class="col_1_of_4 span_1_of_4">
-					<h3>INFORMATION</h3>
-					<ul class="first">
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Legal Notice</a></li>
-					</ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<h3>CATEGORIES</h3>
-					<ul class="first">
-						<li><a href="#">New products</a></li>
-						<li><a href="#">top sellers</a></li>
-						<li><a href="#">Specials</a></li>
-					</ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<h3>My ACCOUNT</h3>
-					<ul class="first">
-						<li><a href="#">Your Account</a></li>
-						<li><a href="#">Personal info</a></li>
-						<li><a href="#">Prices</a></li>
-				    </ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4 footer-lastgrid">
-					<h3>CONTACT US</h3>
-					<ul class="last">
-							<li><span>+91-123-456789</span></li>
-							<li><span>+00-123-000000</span></li>
-						</ul>
-			    </div>
-				<div class="clear"></div> 
-		</div>
-		<div class="copy">
-			<p>Design by <a href="#">W3layouts</a></p>
-		</div>
-	</div>
+	<?php include './includes/footer.php';?>
 </div>
 </body>
 </html>

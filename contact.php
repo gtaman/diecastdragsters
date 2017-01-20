@@ -13,26 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
-<div class="header">	
-  <div class="wrap"> 
-	<div class="header-top">
-		 <div class="logo">
-			 <a href="index.html"><img src="images/logo.png" alt=""></a>
-		 </div>
-		 <div class="menu">
-			<div id="cssmenu">
-				<ul>
-				   <li><a href="index.html"><span>Home</span></a></li>
-				   <li><a href="about.html"><span>About</span></a></li>
-				   <li><a href="gallery.html"><span>Gallery</span></a></li>
-				   <li class="active"><a href="contact.html"><span>Contact</span></a></li>
-				</ul>
-            </div>
-		  </div>	
-		  <div class="clear"></div> 
-	   </div>
-   </div>	
-</div>
+<?php include './includes/header.php';?>
      <div class="main">
 		<div class="content-top">
 			<div class="wrap">
@@ -86,46 +67,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	</div>
-	<div class="footer">
-		<div class="wrap">
-		<div class="footer-top">
-				<div class="col_1_of_4 span_1_of_4">
-					<h3>INFORMATION</h3>
-					<ul class="first">
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Legal Notice</a></li>
-					</ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<h3>CATEGORIES</h3>
-					<ul class="first">
-						<li><a href="#">New products</a></li>
-						<li><a href="#">top sellers</a></li>
-						<li><a href="#">Specials</a></li>
-					</ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<h3>My ACCOUNT</h3>
-					<ul class="first">
-						<li><a href="#">Your Account</a></li>
-						<li><a href="#">Personal info</a></li>
-						<li><a href="#">Prices</a></li>
-				    </ul>
-				</div>
-				<div class="col_1_of_4 span_1_of_4 footer-lastgrid">
-					<h3>CONTACT US</h3>
-					<ul class="last">
-							<li><span>+91-123-456789</span></li>
-							<li><span>+00-123-000000</span></li>
-						</ul>
-			    </div>
-				<div class="clear"></div> 
-		</div>
-		<div class="copy">
-			<p>Design by <a href="#">W3layouts</a></p>
-		</div>
-	</div>
+	<?php include './includes/footer.php';?>
 </div>
 </body>
 </html>
