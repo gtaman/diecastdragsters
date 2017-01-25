@@ -27,9 +27,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		  <div class="slider">
 	      	<div class="slider-wrapper theme-default">
 	            <div id="slider" class="nivoSlider">
-	                <img src="images/crawler1.jpg" alt="" />
+	                <img src="images/crawleryeti.jpg" alt="" />
 	                <img src="images/dragbus1.jpg" alt="" />
-	                <img src="images/hotwheelstrack1.jpg" alt="" />
+	                <img src="images/hotwheelstrack2.jpg" alt="" />
 	            </div>
 	        </div>
    		</div>
